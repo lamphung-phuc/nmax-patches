@@ -23,7 +23,43 @@ shared here.
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
-#### The patch list appears here after the first release.
+> **[v1.0.0](https://github.com/lamphung-phuc/nmax-patches/releases/tag/v1.0.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;9 patches total
+<details open>
+<summary>📦 Google Maps Morphe&nbsp;&nbsp;•&nbsp;&nbsp;7 patches</summary>
+<br>
+
+**Package name:** `com.google.android.apps.maps`
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [BYD navigation audio routing](#byd-navigation-audio-routing) | Routes navigation prompts to the BYD-specific audio stream when supported, retaining the original fallback. Not needed on phones. |  |
+| [Device certification fix](#device-certification-fix) | Skips the uncertified-device screen that closes Maps on devices Google does not certify. |  |
+| [Google Maps for MicroG-RE](#google-maps-for-microg-re) | Connects supported Google Maps builds to MicroG-RE 7.3.0 and avoids a crash when a location-settings dialog cannot open. |  |
+| [NMAX icon](#nmax-icon) | Uses the NmaxConnect launcher icon and splash logo. |  |
+| [Navigation speech and TTS startup](#navigation-speech-and-tts-startup) | Prefers synthesized navigation speech, keeping the existing audio fallback, and starts Google TTS when Maps opens. |  |
+| [NmaxConnect dash map](#nmaxconnect-dash-map) | Lets NmaxConnect show this Maps' live map on the motorbike dash. Hooks found by structure on Maps 26.45. |  |
+| [Picture-in-picture setting](#picture-in-picture-setting) | Adds a Picture-in-picture On/Off setting to Maps Settings. Turn it off so navigation does not open a small window when you leave Maps; it starts on, as in Maps. Hooks inspected on Maps 26.41 and 26.42. |  |
+
+</details>
+
+<details open>
+<summary>📦 Waze NMAX&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<br>
+
+**Package name:** `com.waze`
+
+**🎯 Supported versions:**
+
+| 5.27.0.1 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [NmaxConnect dash map (Waze)](#nmaxconnect-dash-map-waze) | Lets NmaxConnect show Waze's live map and navigation on the motorbike dash. Hooks found by structure on Waze 5.27. |  |
+| [Waze NMAX](#waze-nmax) | Installs Waze next to Google's as com.lampp.wazenmax with NmaxConnect's icon, splash and dash service. |  |
+
+</details>
+
 <!-- PATCHES_END -->
 
 ## Credits

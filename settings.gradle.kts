@@ -1,4 +1,4 @@
-rootProject.name = "gmaps-patches"
+rootProject.name = "nmax-patches"
 
 pluginManagement {
     // The Morphe settings plugin reads these credentials eagerly while applying its settings.

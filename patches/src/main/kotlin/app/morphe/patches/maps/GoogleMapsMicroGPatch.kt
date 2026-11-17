@@ -36,7 +36,7 @@ import org.w3c.dom.Node
 import java.util.logging.Logger
 
 private const val ORIGINAL_PACKAGE_NAME = "com.google.android.apps.maps"
-private const val PATCHED_PACKAGE_NAME = "app.morphe.android.apps.maps"
+private const val PATCHED_PACKAGE_NAME = "app.morphe.android.apps.maps.nmaxconnect"
 private const val ORIGINAL_CERT_SHA1 = "38918a453d07199354f8b19af05ec6562ced5788"
 private const val ORIGINAL_CERT_SHA256 = "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83"
 private const val ORIGINAL_CERT_SHA256_ANDROID_13_PLUS = "7ce83c1b71f3d572fed04c8d40c5cb10ff75e6d87d9df6fbd53f0468c2905053"

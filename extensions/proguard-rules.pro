@@ -13,3 +13,10 @@
 }
 -dontwarn java.lang.reflect.AnnotatedType
 -dontwarn javax.lang.model.element.Modifier
+
+-keep class com.lampp.wazenmax.** {
+  *;
+}
+-keep class com.lampp.nmaxconnect.dashui.** {
+  *;
+}

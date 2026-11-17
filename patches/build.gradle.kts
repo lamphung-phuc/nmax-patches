@@ -5,12 +5,12 @@ group = "app.morphe"
 
 patches {
     about {
-        name = "Maps Patches"
-        description = "Google Maps patch for MicroG-RE 7.3.0, applied with Morphe Desktop"
-        source = "https://github.com/fangkampanat/gmaps-patches"
-        author = "fangkampanat"
-        contact = "https://github.com/fangkampanat/gmaps-patches/issues"
-        website = "https://github.com/fangkampanat/gmaps-patches"
+        name = "NMAX Patches"
+        description = "NmaxConnect dash patches for Google Maps (MicroG-RE 7.3.0) and Waze. Based on fangkampanat/gmaps-patches."
+        source = "https://github.com/lamphung-phuc/nmax-patches"
+        author = "lamphung-phuc, fangkampanat"
+        contact = "https://github.com/lamphung-phuc/nmax-patches/issues"
+        website = "https://github.com/lamphung-phuc/nmax-patches"
         license = "GNU General Public License v3.0, with additional GPL section 7 requirements"
     }
 }

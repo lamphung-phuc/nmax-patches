@@ -50,7 +50,7 @@ internal fun BytecodePatchContext.patchMapsSignatureSpoof() {
     val sha1 = digest("SHA-1")
     val values = mapOf(
         "originalPackage" to ("MAPS_ORIGINAL_PACKAGE_PLACEHOLDER" to packageMetadata.packageName),
-        "patchedPackage" to ("MAPS_PATCHED_PACKAGE_PLACEHOLDER" to "app.morphe.android.apps.maps"),
+        "patchedPackage" to ("MAPS_PATCHED_PACKAGE_PLACEHOLDER" to "app.morphe.android.apps.maps.nmaxconnect"),
         "originalCertificate" to ("MAPS_ORIGINAL_CERTIFICATE_PLACEHOLDER" to Base64.getEncoder().encodeToString(cert.encoded)),
         "originalSha1" to ("MAPS_ORIGINAL_SHA1_PLACEHOLDER" to sha1),
     )

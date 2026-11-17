@@ -32,7 +32,6 @@ shared here.
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
-| [BYD navigation audio routing](#byd-navigation-audio-routing) | Routes navigation prompts to the BYD-specific audio stream when supported, retaining the original fallback. Not needed on phones. |  |
 | [Device certification fix](#device-certification-fix) | Skips the uncertified-device screen that closes Maps on devices Google does not certify. |  |
 | [Google Maps for MicroG-RE](#google-maps-for-microg-re) | Connects supported Google Maps builds to MicroG-RE 7.3.0 and avoids a crash when a location-settings dialog cannot open. |  |
 | [NMAX icon](#nmax-icon) | Uses the NmaxConnect launcher icon and splash logo. |  |
